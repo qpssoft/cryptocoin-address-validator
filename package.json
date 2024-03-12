@@ -1,5 +1,5 @@
 {
-    "name": "multicoin-address-validator",
+    "name": "cryptocoin-address-validator",
     "description": "Multicoin address validator for Bitcoin and other Altcoins.",
     "keywords": [
         "0x","zrx",
@@ -159,13 +159,13 @@
         "ZClassic","zcl",
         "ZenCash","zen"
     ],
-    "version": "0.5.16",
-    "author": "Chris <chris.tsim@gmail.com>",
-    "homepage": "https://github.com/christsim/multicoin-address-validator",
+    "version": "1.0.0",
+    "author": "Quang Pham <quang.pham@btc.com>",
+    "homepage": "https://github.com/qpssoft/cryptocoin-address-validator",
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "https://github.com/christsim/multicoin-address-validator.git"
+        "url": "https://github.com/qpssoft/cryptocoin-address-validator.git"
     },
     "main": "src/wallet_address_validator",
     "engines": {
@@ -189,7 +189,8 @@
         "crc": "^4.3.2",
         "js-sha512": "^0.9.0",
         "jssha": "^3.3.1",
-        "lodash.isequal": "^4.5.0"
+        "lodash.isequal": "^4.5.0",
+        "auto-group-strings-array" : "^1.1.3"
     },
     "devDependencies": {
         "browserify": "^17.0.0",
