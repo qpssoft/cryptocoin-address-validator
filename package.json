@@ -1,5 +1,5 @@
 {
-    "name": "crypto-coin-address-validator",
+    "name": "crypto-coin-address-validators",
     "description": "Multicoin address validator for Bitcoin and other Altcoins.",
     "keywords": [
         "0x","zrx",
@@ -161,11 +161,11 @@
     ],
     "version": "1.0.0",
     "author": "Quang Pham <quang.pham@btc.com>",
-    "homepage": "https://github.com/qpssoft/crypto-coin-address-validator",
+    "homepage": "https://github.com/qpssoft/crypto-coin-address-validators",
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "https://github.com/qpssoft/crypto-coin-address-validator.git"
+        "url": "https://github.com/qpssoft/crypto-coin-address-validators.git"
     },
     "main": "src/wallet_address_validator",
     "engines": {
@@ -173,8 +173,8 @@
     },
     "engineStrict": true,
     "scripts": {
-        "bundle": "browserify src/wallet_address_validator.js --standalone WAValidator --outfile dist/crypto-coin-address-validator.js",
-        "minify": "uglifyjs -c -m -o dist/crypto-coin-address-validator.min.js -- dist/crypto-coin-address-validator.js",
+        "bundle": "browserify src/wallet_address_validator.js --standalone WAValidator --outfile dist/crypto-coin-address-validators.js",
+        "minify": "uglifyjs -c -m -o dist/crypto-coin-address-validators.min.js -- dist/crypto-coin-address-validators.js",
         "test:node": "mocha test",
         "test:browser": "npm run bundle && npm run minify && karma start",
         "test": "npm run test:node && npm run test:browser",

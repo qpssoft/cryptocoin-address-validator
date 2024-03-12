@@ -1,7 +1,7 @@
-# crypto-coin-address-validator
+# crypto-coin-address-validators
 Simple wallet address validator for validating Bitcoin and other altcoins addresses in **Node.js and browser**.
 
-[![Build Status](https://travis-ci.org/qpssoft/crypto-coin-address-validator.svg?branch=master)](https://travis-ci.org/qpssoft/crypto-coin-address-validator)
+[![Build Status](https://travis-ci.org/qpssoft/crypto-coin-address-validators.svg?branch=master)](https://travis-ci.org/qpssoft/crypto-coin-address-validators)
 
 Forked from [ryanralph/altcoin-address](https://github.com/ryanralph/altcoin-address).
 
@@ -11,12 +11,12 @@ Forked from [ryanralph/altcoin-address](https://github.com/ryanralph/altcoin-add
 
 ### NPM
 ```
-npm install crypto-coin-address-validator
+npm install crypto-coin-address-validators
 ```
 
 ### Browser
 ```html
-<script src="crypto-coin-address-validator.min.js"></script>
+<script src="crypto-coin-address-validators.min.js"></script>
 ```
 
 ## API
@@ -195,7 +195,7 @@ npm install crypto-coin-address-validator
 
 #### Node
 ```javascript
-var WAValidator = require('crypto-coin-address-validator');
+var WAValidator = require('crypto-coin-address-validators');
 
 var valid = WAValidator.validate('1KFzzGtDdnq5hrwxXGjwVnKzRbvf8WVxck', 'BTC');
 if(valid)
@@ -207,7 +207,7 @@ else
 ```
 
 ```javascript
-var WAValidator = require('crypto-coin-address-validator');
+var WAValidator = require('crypto-coin-address-validators');
 
 var valid = WAValidator.validate('1KFzzGtDdnq5hrwxXGjwVnKzRbvf8WVxck', 'litecoin', 'testnet');
 if(valid)
@@ -219,7 +219,7 @@ else
 ```
 
 ```javascript
-var WAValidator = require('crypto-coin-address-validator');
+var WAValidator = require('crypto-coin-address-validators');
 
 var currency = WAValidator.findCurrency('xrp');
 if(currency)
@@ -231,7 +231,7 @@ else
 ```
 
 ```javascript
-var WAValidator = require('crypto-coin-address-validator');
+var WAValidator = require('crypto-coin-address-validators');
 
 var currency = WAValidator.findCurrency('random');
 if(currency)
@@ -243,7 +243,7 @@ else
 ```
 #### Browser
 ```html
-<script src="crypto-coin-address-validator.min.js"></script>
+<script src="crypto-coin-address-validators.min.js"></script>
 ```
 
 ```javascript
