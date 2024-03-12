@@ -1,5 +1,5 @@
 {
-    "name": "cryptocoin-address-validator",
+    "name": "crypto-coin-address-validator",
     "description": "Multicoin address validator for Bitcoin and other Altcoins.",
     "keywords": [
         "0x","zrx",
@@ -161,11 +161,11 @@
     ],
     "version": "1.0.0",
     "author": "Quang Pham <quang.pham@btc.com>",
-    "homepage": "https://github.com/qpssoft/cryptocoin-address-validator",
+    "homepage": "https://github.com/qpssoft/crypto-coin-address-validator",
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "https://github.com/qpssoft/cryptocoin-address-validator.git"
+        "url": "https://github.com/qpssoft/crypto-coin-address-validator.git"
     },
     "main": "src/wallet_address_validator",
     "engines": {

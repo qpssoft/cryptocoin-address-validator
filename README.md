@@ -1,7 +1,7 @@
 # wallet-address-validator
 Simple wallet address validator for validating Bitcoin and other altcoins addresses in **Node.js and browser**.
 
-[![Build Status](https://travis-ci.org/qpssoft/cryptocoin-address-validator.svg?branch=master)](https://travis-ci.org/qpssoft/cryptocoin-address-validator)
+[![Build Status](https://travis-ci.org/qpssoft/crypto-coin-address-validator.svg?branch=master)](https://travis-ci.org/qpssoft/crypto-coin-address-validator)
 
 Forked from [ryanralph/altcoin-address](https://github.com/ryanralph/altcoin-address).
 
@@ -11,7 +11,7 @@ Forked from [ryanralph/altcoin-address](https://github.com/ryanralph/altcoin-add
 
 ### NPM
 ```
-npm install cryptocoin-address-validator
+npm install crypto-coin-address-validator
 ```
 
 ### Browser
@@ -195,7 +195,7 @@ npm install cryptocoin-address-validator
 
 #### Node
 ```javascript
-var WAValidator = require('cryptocoin-address-validator');
+var WAValidator = require('crypto-coin-address-validator');
 
 var valid = WAValidator.validate('1KFzzGtDdnq5hrwxXGjwVnKzRbvf8WVxck', 'BTC');
 if(valid)
@@ -207,7 +207,7 @@ else
 ```
 
 ```javascript
-var WAValidator = require('cryptocoin-address-validator');
+var WAValidator = require('crypto-coin-address-validator');
 
 var valid = WAValidator.validate('1KFzzGtDdnq5hrwxXGjwVnKzRbvf8WVxck', 'litecoin', 'testnet');
 if(valid)
@@ -219,7 +219,7 @@ else
 ```
 
 ```javascript
-var WAValidator = require('cryptocoin-address-validator');
+var WAValidator = require('crypto-coin-address-validator');
 
 var currency = WAValidator.findCurrency('xrp');
 if(currency)
@@ -231,7 +231,7 @@ else
 ```
 
 ```javascript
-var WAValidator = require('cryptocoin-address-validator');
+var WAValidator = require('crypto-coin-address-validator');
 
 var currency = WAValidator.findCurrency('random');
 if(currency)
