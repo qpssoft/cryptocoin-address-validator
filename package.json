@@ -159,8 +159,8 @@
         "ZClassic","zcl",
         "ZenCash","zen"
     ],
-    "version": "1.0.0",
-    "author": "Quang Pham <quang.pham@btc.com>",
+    "version": "1.0.1",
+    "author": "Quang Pham <quangphamsoftvn@gmail.com>",
     "homepage": "https://github.com/qpssoft/crypto-coin-address-validators",
     "license": "MIT",
     "repository": {

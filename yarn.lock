@@ -1133,6 +1133,22 @@ crypto-browserify@^3.0.0:
     randombytes "^2.0.0"
     randomfill "^1.0.3"
 
+crypto-coin-address-validators@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.npmjs.org/crypto-coin-address-validators/-/crypto-coin-address-validators-1.0.0.tgz"
+  integrity sha512-3rVGgbiuX8O5PwQdXV8gcocu0sNvikPYL/KU59avDsTt7KXMcVIyJlg6HwT2K3BKbbj5Xm0DMt7tYIMOCTBorw==
+  dependencies:
+    auto-group-strings-array "^1.1.3"
+    base-x "^4.0.0"
+    browserify-bignum "^1.3.0-2"
+    buffer "^6.0.3"
+    bundle "^2.1.0"
+    cbor-js "^0.1.0"
+    crc "^4.3.2"
+    js-sha512 "^0.9.0"
+    jssha "^3.3.1"
+    lodash.isequal "^4.5.0"
+
 css-b64-images@~0.2.5:
   version "0.2.5"
   resolved "https://registry.npmjs.org/css-b64-images/-/css-b64-images-0.2.5.tgz"
