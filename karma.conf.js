@@ -6,7 +6,7 @@ module.exports = function (config) {
         frameworks: ['mocha', 'chai'],
 
         files: [
-            'dist/wallet-address-validator.min.js',
+            'dist/crypto-coin-address-validator.min.js',
             'test/**/*.js'
         ],
 

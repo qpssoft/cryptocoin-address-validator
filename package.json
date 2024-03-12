@@ -173,8 +173,8 @@
     },
     "engineStrict": true,
     "scripts": {
-        "bundle": "browserify src/wallet_address_validator.js --standalone WAValidator --outfile dist/wallet-address-validator.js",
-        "minify": "uglifyjs -c -m -o dist/wallet-address-validator.min.js -- dist/wallet-address-validator.js",
+        "bundle": "browserify src/wallet_address_validator.js --standalone WAValidator --outfile dist/crypto-coin-address-validator.js",
+        "minify": "uglifyjs -c -m -o dist/crypto-coin-address-validator.min.js -- dist/crypto-coin-address-validator.js",
         "test:node": "mocha test",
         "test:browser": "npm run bundle && npm run minify && karma start",
         "test": "npm run test:node && npm run test:browser",

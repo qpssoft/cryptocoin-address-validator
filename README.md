@@ -1,4 +1,4 @@
-# wallet-address-validator
+# crypto-coin-address-validator
 Simple wallet address validator for validating Bitcoin and other altcoins addresses in **Node.js and browser**.
 
 [![Build Status](https://travis-ci.org/qpssoft/crypto-coin-address-validator.svg?branch=master)](https://travis-ci.org/qpssoft/crypto-coin-address-validator)
@@ -16,7 +16,7 @@ npm install crypto-coin-address-validator
 
 ### Browser
 ```html
-<script src="wallet-address-validator.min.js"></script>
+<script src="crypto-coin-address-validator.min.js"></script>
 ```
 
 ## API
@@ -243,7 +243,7 @@ else
 ```
 #### Browser
 ```html
-<script src="wallet-address-validator.min.js"></script>
+<script src="crypto-coin-address-validator.min.js"></script>
 ```
 
 ```javascript
